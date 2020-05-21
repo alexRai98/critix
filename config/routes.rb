@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   # get 'games', to: 'games#index'
   # get 'games/:id', to: 'games#show'
   resources :games
+  resources :companies
 
 end
